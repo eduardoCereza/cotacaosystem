@@ -15,10 +15,17 @@ cotacao_bitcoin = input(app["BTCBRL"]['bid'])
 
 #sistema de opcao
 print("Digite o número que corresponde ao conversor: ")
-print('1')
-print('2')
-print('3')
+print('1. USD')
+print('2. EUR')
+print('3. BTC')
 
 #pegar valor do usuario
 valor = int(input("Digite o valor: "))
 #logica em loop condicional
+if 1:
+    resltado = valor * cotacao_dolar
+if 2:
+    resultado = valor * cotacao_euro
+if 3 :
+    resultado = valor * cotacao_bitcoin
+
