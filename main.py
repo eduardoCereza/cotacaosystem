@@ -8,3 +8,8 @@ app = app.json()
 cotacao_dolar = input(app["USDBRL"]['bid'])
 cotacao_euro = input(app["EURBRL"]['bid'])
 cotacao_bitcoin = input(app["BTCBRL"]['bid'])
+
+print("Digite o número que corresponde ao conversor: ")
+print('1')
+print('2')
+print('3')
