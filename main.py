@@ -28,11 +28,14 @@ while True:
     if opcao == 1:
         resultado = valor * cotacao_dolar
         print(resultado)
+        opcao = 4
     if opcao == 2:
         resultado = valor * cotacao_euro
         print(resultado)
+        opcao = 4
     if opcao == 3:
         resultado = valor * cotacao_bitcoin
         print(resultado)
+        opcao = 4
     if opcao == 4:
         break
