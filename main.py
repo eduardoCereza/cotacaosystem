@@ -9,9 +9,9 @@ app = requests.get(url)
 #importa o JSON
 app = app.json()
 #atribui a cada cotacao o seu valor, podendo ser achada no arquivo JSON
-cotacao_dolar = input(app["USDBRL"]['bid'])
-cotacao_euro = input(app["EURBRL"]['bid'])
-cotacao_bitcoin = input(app["BTCBRL"]['bid'])
+cotacao_dolar = float(input(app["USDBRL"]['bid']))
+cotacao_euro = float(input(app["EURBRL"]['bid']))
+cotacao_bitcoin = float(input(app["BTCBRL"]['bid']))
 
 #sistema de opcao
 print("Digite o número que corresponde ao conversor: ")
@@ -20,7 +20,7 @@ print('2. EUR')
 print('3. BTC')
 
 #pegar valor do usuario
-valor = int(input("Digite o valor: "))
+valor = float(input("Digite o valor: "))
 #logica em loop condicional
 if 1:
     resltado = valor * cotacao_dolar
