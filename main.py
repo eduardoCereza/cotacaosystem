@@ -15,18 +15,24 @@ cotacao_euro = float((app["EURBRL"]['bid']))
 cotacao_bitcoin = float((app["BTCBRL"]['bid']))
 
 #sistema de opcao
-opcao = int(("Digite o número que corresponde ao conversor: "))
 print('1. USD')
 print('2. EUR')
 print('3. BTC')
+print("4. Sair")
+opcao = int(input("Digite o número que corresponde ao conversor: "))
+
 
 
 #logica em loop condicional
-if opcao == 1:
-    resltado = valor * cotacao_dolar
-if opcao == 2:
-    resultado = valor * cotacao_euro
-if opcao == 3:
-    resultado = valor * cotacao_bitcoin
-
-print(resultado)
+while True:
+    if opcao == 1:
+        resltado = valor * cotacao_dolar
+        print(resultado)
+    if opcao == 2:
+        resultado = valor * cotacao_euro
+        print(resultado)
+    if opcao == 3:
+        resultado = valor * cotacao_bitcoin
+        print(resultado)
+    if opcao == 4:
+        break
