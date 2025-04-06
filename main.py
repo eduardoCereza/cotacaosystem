@@ -26,7 +26,7 @@ opcao = int(input("Digite o número que corresponde ao conversor: "))
 #logica em loop condicional
 while True:
     if opcao == 1:
-        resltado = valor * cotacao_dolar
+        resultado = valor * cotacao_dolar
         print(resultado)
     if opcao == 2:
         resultado = valor * cotacao_euro
