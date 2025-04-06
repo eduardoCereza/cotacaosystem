@@ -19,4 +19,6 @@ print('1')
 print('2')
 print('3')
 
+#pegar valor do usuario
+valor = int(input("Digite o valor: "))
 #logica em loop condicional
