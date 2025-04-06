@@ -29,3 +29,4 @@ if 2:
 if 3 :
     resultado = valor * cotacao_bitcoin
 
+print(resultado)
