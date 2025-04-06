@@ -1,0 +1,2 @@
+#importando bibliotecas
+import requests
